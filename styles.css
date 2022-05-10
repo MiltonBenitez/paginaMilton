@@ -1,0 +1,112 @@
+
+*{ 
+    margin:0px
+}
+
+.blog{ 
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    background-image: url("index.png"); 
+    background-size: cover;
+    color: aliceblue;
+}
+
+.CuadroPrincipal{ 
+    
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+body,html{ 
+    font-size: 16px;
+    max-height: 100%;
+    margin:0;
+}
+
+.redesSociales{ 
+    background-color: #580c02;
+    height: 70px;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-left: 20px;
+    
+}
+
+.menu{ 
+    background-color: #91260e;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logotipo{ 
+    height: 60px;
+}
+
+.menu_lista{ 
+    display: flex;
+    list-style: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu_lista_link{
+    text-decoration: none;
+    color:black;
+ }
+
+ .menu_lista_elementos{ 
+    margin-left: 40px;
+}
+
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+    
+    .footer{ 
+        background:linear-gradient(#550f06,#000000);
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .footer_texto{ 
+        font-family:"play";
+        color:rgb(255, 253, 253);
+        font-size: 20px;
+    }
+    
+    .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: flex-start;
+        background-color: #b3aefd;
+        
+    }
+    
+    .Lado_Derecho__img{
+        width: 40%;
+        
+    }
+    
+    .Lado_Derecho__texto{
+        width: 35%;
+        justify-content: center;
+    }
+
+     h1,p{
+        margin: 30px;
+        text-align:center;
+    }
